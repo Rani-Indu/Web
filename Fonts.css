@@ -1,0 +1,22 @@
+body{
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+/* we can apply changes to p or h1 by mentioning the name of the section we want to change the font */
+
+h1{
+    /* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Handjet', cursive; */
+/* font-family: 'Inconsolata', monospace; */
+font-family: 'Kanit', sans-serif;
+/* font-family: 'Open Sans', sans-serif; */
+}
+
+p{
+    /* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Handjet', cursive; */
+/* font-family: 'Inconsolata', monospace; */
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+}

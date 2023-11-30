@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration form</title>
+</head>
+<body>
+    <form method="get" >
+    <!-- <form method="post" target="_blank" action="/signup"> -->
+        
+            <label for="name">Enter your Username</label>
+            <input type="text" id="name" name="Username" value="rani" readonly disabled>
+            <br>
+            <br>
+            <label for="email">Enter your Email</label>
+            <input type="email" name="email" id="email" placeholder="xyz@gmail.com" autofocus>
+            <!-- use of email input tag is it will validate that we enter email address only while filling form by poping up msg -->
+            <br>
+            <br>
+            <label for="user password">Enter your Password</label>
+            <input type="password" name="user password" id="user password" placeholder="6765">
+           
+            <br>
+            <br>
+            Select Gender: <br>
+            
+            <label for="male"> Male</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <br>
+            <label for="female">  Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <label for="trans">Transgender</label>
+            <input type="radio" id="trans" name="gender" value="transgender">
+            <br>
+            <input type="number">
+            <br>
+            <input type="number" min="0" max="7">
+            <br>
+            <input type="submit" value="Submit Form">
+        
+    </form>
+    
+</body>
+</html>

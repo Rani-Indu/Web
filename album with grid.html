@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album with Grid</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 250px);
+        height: 1700px;
+      }
+      .box {
+        /* height: 100px;
+        width: 100px; */
+      }
+
+      .box1 {
+        background-color: violet;
+        overflow: hidden;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .box2 {
+        background-color: indigo;
+        overflow: hidden;
+      }
+      .box3 {
+        background-color: blue;
+        overflow: hidden;
+      }
+      .box4 {
+        background-color: green;
+        overflow: hidden;
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      .box5 {
+        background-color: yellow;
+        overflow: hidden;
+      }
+      .box6 {
+        background-color: orange;
+        overflow: hidden;
+      }
+      .box7 {
+        background-color: red;
+        overflow: hidden;
+      }
+      .box8 {
+        background-color: aqua;
+        overflow: hidden;
+      }
+      .box9 {
+        background-color: rgb(179, 6, 179);
+        overflow: hidden;
+      }
+    </style>
+</head>
+<body>
+   <!-- <div class="container">
+    <div class="box box1"><img src="https://images.pexels.com/photos/5875844/pexels-photo-5875844.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Road"></div>
+    <div class="box box2"><img src="https://images.pexels.com/photos/7125530/pexels-photo-7125530.jpeg?auto=compress&cs=tinysrgb&w=400" alt="coffee"></div>
+    <div class="box box3"><img src="https://images.pexels.com/photos/5859319/pexels-photo-5859319.jpeg?auto=compress&cs=tinysrgb&w=400" alt="happiness"></div>
+    <div class="box box4"><img src="https://images.pexels.com/photos/663317/pexels-photo-663317.jpeg?auto=compress&cs=tinysrgb&w=400" alt=""></div>
+    <div class="box box5"><img src="https://images.pexels.com/photos/7514953/pexels-photo-7514953.jpeg?auto=compress&cs=tinysrgb&w=400" alt=""></div>
+    <div class="box box6"><img src="https://images.pexels.com/photos/3262937/pexels-photo-3262937.jpeg?auto=compress&cs=tinysrgb&w=400" alt=""></div>
+    <div class="box box7"><img src="https://images.pexels.com/photos/5408080/pexels-photo-5408080.jpeg?auto=compress&cs=tinysrgb&w=400" alt=""></div>
+    <div class="box box8"><img src="https://images.pexels.com/photos/7902185/pexels-photo-7902185.jpeg?auto=compress&cs=tinysrgb&w=400" alt=""></div>
+    <div class="box box9"><img src="https://images.pexels.com/photos/6631709/pexels-photo-6631709.jpeg?auto=compress&cs=tinysrgb&w=400" alt=""></div>
+   </div>  -->
+   <div class="container">
+    <box class="box1"></box>
+    <box class="box2"></box>
+    <box class="box3"></box>
+    <box class="box4"></box>
+    <box class="box5"></box>
+    <box class="box6"></box>
+    <box class="box7"></box>
+    <box class="box8"></box>
+    <box class="box9"></box>
+   </div>
+</body>
+</html>

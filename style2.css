@@ -1,0 +1,54 @@
+/* body{
+    background-color: aqua;
+    color:blueviolet;
+} */
+
+
+
+
+
+
+/* universal selector */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+/* element selector */
+/* h2{
+    color:#0000ff;
+    background-color:aqua ; 
+} */
+
+/* below color code will get applied tp all p tag */
+/* p{
+    background-color: #4b2626;
+    color:#f5dfdf
+} */
+
+
+
+
+/* Class Selector */
+/* we can use more than two parameters or properties withib same class */
+
+/* .heading{
+    color:#f58d9e
+}
+
+.dimension{
+    font-size: 30px;
+} */
+
+
+
+
+
+/* ID Selector */
+#id1{
+    background-color: #ee9830;
+    color:#665d52
+
+}

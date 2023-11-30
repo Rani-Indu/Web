@@ -1,0 +1,70 @@
+/* body{
+    color: beige;
+    background-color: black;
+} */
+
+
+
+
+
+/* Descendent selector */
+/* main p {
+    color: #c3c3d1;
+    font-size: 25px;
+} */
+
+
+
+/* Child Selector */
+
+/* h1 > p {
+    color: #f599a8;
+} */
+/* h1 - parent;   p - child */
+/* all dsecendent selector cann't be child selector but maybe all child selector are descendent selector , chances hai  */
+
+
+
+
+/* Adjacent Sibling Selector */
+
+/* section + p{
+    color: #1ce7e7;
+    background-color: #be700a;
+} */
+
+/* <!-- section ke andar - descendent seclector  -->
+    <!-- section ke adjacent or just next - adjacent sibling selector --> */
+
+
+
+
+/* General sibling selector */
+/* section ~ p{
+    color: #1ce7e7;
+    background-color: #be700a;
+} */
+/* section ke baad jitne bhi p tag hai waha apply hoga */
+
+/* main ~ p{
+    color: #1ce7e7;
+    background-color: #be700a;
+} */
+/* main ke baad jitne bhi (independent, kisi ke andar nahi) p tag hai waha apply hoga */
+
+
+/* Attribute selector */
+
+
+/* [target="_blank"]{
+    color:#d1259e;
+    text-decoration: none;
+} */
+/* jaha pe bhi -blank hoga waha pe upper likhe properties apply honge */
+
+
+[alt~="PW"]{
+    background-color: #c58585;
+    color:whitesmoke;
+}
+/* jaha pe bhi alt. text exactly PW haga waha hi upper likhi property use hogi, matlab PW1 pe apply nahi hogi */

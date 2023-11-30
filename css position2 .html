@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative and absolute</title>
+    <style>
+        .main {
+            border: 2px solid red;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+            
+        }
+        .box1{
+            background-color: red;
+            border: 1px solid black;
+            
+        }
+        .box2{
+            background-color: green;
+            border: 1px solid black;
+            position: relative;
+            /* position: absolute; */
+
+            /* with the same code first check with relative then by absolute by uncommenting them one by one and we can see the difference */
+
+            /* relative - changes are w.r.t  previous position
+               absolute - changes are w.r.t parent element (i,e parent div)
+             */
+
+            top: 20px;
+            /* green block will move 20 px from its original/previous position in case of relative and for absolute it will move 20px from parent div i,e red border line */
+            left: 250px;
+            /* green block will move 25px left from original/previous position in case of relative and 25px left from parent div (red border line)in case of absolute*/
+
+            
+        }
+         .box3{ 
+            background-color: yellow;
+            border: 1px solid black;
+            /* position: sticky;
+            top: 0; */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">                    <!--parent element-->   
+        <div class="box box1"></div>   <!--all 3 are child elements -->    
+        <div class="box box2"></div>    
+        <div class="box box3"></div>
+        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+    </div>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,119 @@
+/* MEDIA  QUERIES */
+
+
+/* body{
+    background-color:red;
+}
+
+div{
+    text-align:center;
+    font-size: x-large;
+}
+
+div::after{
+    content:'Welcome Dear!!'
+}
+
+@media(max-width: 400px){
+    body{
+        background-color: white;
+    }
+    div::after{
+        content:'Very Small'
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color:white;
+}
+
+div{
+    text-align:center;
+    font-size: x-large;
+}
+
+div::after{
+    content:'Welcome Dear!!'
+}
+
+@media(min-width: 400px) and (max-width: 765px){
+    body{
+        background-color: yellowgreen;
+    }
+    div::after{
+        content:'Mid Size Device'
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: aquamarine;
+}
+
+div{
+    text-align:center;
+    font-size: larger;
+}
+
+div::after {
+    content:'Welcome to the world'
+}
+
+@media(max-height: 400px){
+    body{
+        background-color: rgb(39, 120, 192);
+    }
+    div::after{
+        content: 'Done!!'
+    }
+
+}
+@media(min-height: 400px) and (max-height: 768px){
+    body{
+        background-color: rgb(27, 170, 70);
+    }
+    div::after{
+        content: 'Too Good!!'
+    }
+
+}
+/* @media(min-width: 768px) and (max-width: 1000px){ */
+@media(768px <= height <= 1000px ){
+    body{
+        background-color: rgb(27, 170, 70);
+    }
+    div::after{
+        content: 'Too much!!'
+    }
+
+}
+@media(min-height: 1000px){
+    body{
+        background-color: rgb(139, 16, 129);
+    }
+    div::after{
+        content: 'Super!!'
+    }
+
+}

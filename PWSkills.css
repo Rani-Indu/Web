@@ -1,0 +1,18 @@
+/* body{
+    background-color: yellowgreen;
+} */
+
+/* body{
+    background-color: antiquewhite;
+} */
+
+.heading{
+    color:green;
+    /* color:#808080; */
+    font-size: 43px;
+    text-align:center;
+    text-decoration: underline;
+    border: 2px dotted grey;
+    
+    
+}

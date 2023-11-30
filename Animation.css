@@ -1,0 +1,94 @@
+div {
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position: relative;
+    /* animation-name: colorchange;
+    animation-duration: 5s;
+    animation-delay:3s;
+    animation-iteration-count: 4;
+    animation-direction:reverse;
+    animation-fill-mode:  forwards; */
+    /* shortcuut  */
+    animation: colorchange 5s linear 3s 4 reverse;
+
+    
+
+    /* comment */
+    /* forward - animation will end with last color aqua , start with yellow, it will not go back to yellow  */
+    /* Backward - animation is pink i,e first or 0% color even before the start of the animation ends at yellow*/
+    /* Both - start with pink end with aqua */
+ 
+}
+
+
+/* This is time function for all 4 different div */
+/* #ease {
+    animation-timing-function: ease;
+}
+
+#Linear {
+    animation-timing-function: Linear;
+}
+
+#ease-in {
+    animation-timing-function: ease-in;
+}
+
+#ease-in-out {
+    animation-timing-function: ease-in-out;
+} */
+
+@keyframes colorchange {
+    /* from {
+        background-color: #ff00ea;
+        top: 0px;
+        left: 0px;
+    }
+
+    to {
+        background-color: yellowgreen;
+        top: 0px;
+        left: 400px;
+    
+    } */
+
+
+
+                                        /* OR */
+
+
+
+    0% {
+        background-color: pink;
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        background-color: #49b3dd;
+        top: 0px;
+        left: 200px;
+    }
+
+    50% {
+        background-color: yellowgreen;
+        top: 200px;
+        left: 200px;
+    }
+
+    75% {
+        background-color: #9e0c49;
+        top: 200px;
+        left: 0px;
+    
+    }
+
+    100% {
+        background-color: aqua;
+        top: 0px;
+        left: 0px;
+    
+    }
+    
+}

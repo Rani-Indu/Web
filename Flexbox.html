@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            /* flex me pura block leta hai */
+            display: flex;
+            height: 360px;
+
+            /* inline-flex me utne hi dur me element kaam karenge jitna unko space provide kiya gaya hai */
+            /* display:inline-flex; */
+            border: 1px solid black;
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap:nowrap; */
+            /* flex-wrap:wrap-reverse; */
+            /* justify-content: center; */
+            /* justify-content:end ; */
+            /* justify-content:space-around ; */
+            /* justify-content:space-between ; */
+            /* justify-content:space-evenly ; */
+            /* justify-content:flex-end ; */
+            /* justify-content:flex-start ; */
+            /* justify-content:stretch ; */
+            /* justify-content:start ; */
+            /* justify-content:first baseline ; */
+
+            /* justify content works horizontally */
+            /* align item works vertically */
+
+            /* align-items: stretch; */
+            /* align-items:flex-start ; */
+            /* align-items:flex-end ; */
+            justify-content: center;
+            align-items:center ;
+            /* gap: 100px; */
+            /* row-gap: 100px; */
+            /* column-gap: 100px; */
+        }
+        .box{
+            height:100px;
+            width:100px;
+        }
+        .box1 {
+            background-color: #fa2212;
+            order: 32;
+            flex-grow: 2;
+            /* flex-shrink:9; */
+            /* more the value of shrink, more will be shrink in element */
+            /* align-self: flex-start; */
+            flex-basis: 0cqb;
+        }
+        
+        .box2 {
+            background-color:#ffff00;
+            order: 4;
+            flex-grow: 10;
+            /* flex-shrink: 2; */
+            align-self:center;
+            flex: 2 0 75px;
+        }
+        .box3 {
+            background-color:#008000;
+            order: 450;
+            flex-grow: 7;
+            /* flex-shrink: 5; */
+            /* align-self: flex-end; */
+        }
+    </style>
+</head>
+<body>
+    <!-- Flexbox -->
+    <div class="container">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+    
+        
+    </div>
+</body>
+</html>

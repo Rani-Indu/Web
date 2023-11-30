@@ -1,0 +1,38 @@
+body {
+    background-color: #f7130b;
+}
+
+
+/* as we are playing with media queries so we can define additional changes in div as mentioned below */
+div {
+    font-size: x-large;
+    text-align:center;
+}
+
+div::after {
+    /* pseudo element */
+    content: "Welcome to the demo"
+}
+
+@media (min-width: 768px) {
+    /* if viewport is atleast 900px then this style will apply */
+    body {
+        background-color: #e212d1;
+    }
+    
+    div::after {
+        content:"Small Screen"
+    }
+}
+@media (min-width: 900px) {
+    /* if viewport is atleast 900px then this style will apply */
+    body {
+        background-color: #1eb891;
+    }
+    
+    div::after {
+        content:"Woah its working"
+    }
+}
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Index</title>
+
+    <!-- Z Index - stack i,e layer over layer -->
+    <style>
+    p{
+        height: 250px;
+        width:250px;
+        border: 2px solid black;
+        overflow: visible;
+    }
+    
+    .two {
+        height: 50px;
+        width:50px;
+        background-color:yellow;
+        position: absolute;
+        /* top: 0; */
+        /* right: 400px; */
+        /* z-index: 2; */
+    }
+    .one {
+        height: 50px;
+        width:50px;
+        background-color: red;
+        border: 1px solid black;
+        position: absolute;
+        top: 0;
+        z-index: 1;          /*stack or layer goes back*/
+         /* z-index: 1;    anything which is by default has stack number one */
+    }
+    </style>
+</head>
+<body>
+   <p>Lorem sequi nihil, porro accusanodi, deleniti Lorem ipsum cupiditate.</p> 
+   <div class="one"></div>
+   <div class="two"></div>
+</body>
+</html>

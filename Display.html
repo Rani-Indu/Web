@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        p.inline{
+            display:inline;
+        }
+        span{
+            display:block;
+        }
+        /* .inline-block{
+            display:inline-block;
+            width: 200px;
+            color: rgb(150, 71, 71);
+        } */
+        .inline-block{
+            display:hidden;
+            /* width: 200px;
+            color: rgb(150, 71, 71); */
+        }
+        .inline-block{
+            display:none;
+            /* width: 200px;
+            color: rgb(150, 71, 71); */
+        }
+    </style>
+    <!-- three properties 
+    display:inline
+    display:block
+    display:inline-block-->
+</head>
+<body>
+    <!-- Display Property: Inline -->
+    <!-- p default behaviour is Block -->
+    <p class="inline">Lorem, ipsum.</p>
+    <p class="inline">Lorem, ipsum dolor.</p>
+    <hr>
+    <!-- Span - default behaviour is inline -->
+    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, dolorum!</span>
+
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatum ab consequuntur?</span>
+    <hr>
+
+    <p class="inline-block">Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Earum, itaque!</p>
+        <!--with inline block we can provide height and width  -->
+    <p class="inline-block">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, laboriosam!
+    </p>
+</body>
+</html>
